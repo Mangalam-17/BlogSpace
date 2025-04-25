@@ -78,7 +78,7 @@ http://localhost:3000
 1. Home Page
 
 
-![Home Page](https://github.com/Mangalam-17/BlogSpace/blob/a5972971d89e4acfa3f75c42da9900d4877b9fb3/preview/home.png)
+![Home Page](https://github.com/Mangalam-17/BlogSpace/blob/e5b53234a4954b92f4a90a3f572b6cbf2a97c387/preview/home.png)
 
 2. Signup Page
 
