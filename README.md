@@ -83,28 +83,28 @@ http://localhost:3000
 2. Signup Page
 
 
-![Signup page](https://github.com/Mangalam-17/BlogSpace/blob/a5972971d89e4acfa3f75c42da9900d4877b9fb3/preview/signup.png)
+![Signup page](https://github.com/Mangalam-17/BlogSpace/blob/9686ee5d54ff10e98c7817b8251a18985a1c33d9/preview/signup.png)
 
 3. Signin Page
 
 
-![signin page](https://github.com/Mangalam-17/BlogSpace/blob/a5972971d89e4acfa3f75c42da9900d4877b9fb3/preview/signup.png)
+![signin page](https://github.com/Mangalam-17/BlogSpace/blob/9686ee5d54ff10e98c7817b8251a18985a1c33d9/preview/signin.png)
 
 
 4. Add a new Blog
 
 
-![add blog](https://github.com/Mangalam-17/BlogSpace/blob/a5972971d89e4acfa3f75c42da9900d4877b9fb3/preview/addblog.png)
+![add blog](https://github.com/Mangalam-17/BlogSpace/blob/9686ee5d54ff10e98c7817b8251a18985a1c33d9/preview/addblog.png)
 
 5. View Particular Blog
 
 
-![particular blog](https://github.com/Mangalam-17/BlogSpace/blob/a5972971d89e4acfa3f75c42da9900d4877b9fb3/preview/viewblog.png)
+![particular blog](https://github.com/Mangalam-17/BlogSpace/blob/9686ee5d54ff10e98c7817b8251a18985a1c33d9/preview/viewblog.png)
 
 6. Adding Comment on a particular blog 
 
 
-![comment](https://github.com/Mangalam-17/BlogSpace/blob/a5972971d89e4acfa3f75c42da9900d4877b9fb3/preview/comment.png)
+![comment](https://github.com/Mangalam-17/BlogSpace/blob/9686ee5d54ff10e98c7817b8251a18985a1c33d9/preview/comment.png)
 
 
 ## Video Demonstration
