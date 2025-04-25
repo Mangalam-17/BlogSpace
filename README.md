@@ -4,7 +4,7 @@ Welcome to Blogspace! This is a simple and intuitive platform where individuals 
 
 ## Live Demo 👁️
 
-A live demo of CozyQuest can be accessed [here](https://blogspace-9cer.onrender.com/).
+A live demo of CozyQuest can be accessed [here](https://blogspace-rvos.onrender.com/).
 
 ## Features 🌟
 
