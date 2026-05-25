@@ -59,7 +59,37 @@ app.use(checkForAuthenticationCookie("token"));
 app.use(express.static(path.resolve("./public")));
 
 app.get("/", async (req, res) => {
-  const allBlogs = await Blog.find({});
+  let allBlogs = await Blog.find({});
+  
+  if (allBlogs.length === 0) {
+    allBlogs = [
+      {
+        _id: "mock1",
+        title: "The Future of AI Assistants",
+        description: "Explore how AI is revolutionizing our daily workflows and enhancing productivity.",
+        coverImageURL: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        _id: "mock2",
+        title: "Mastering Full-Stack Development",
+        description: "A comprehensive guide to building modern web applications with Node.js and React.",
+        coverImageURL: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        _id: "mock3",
+        title: "Beautiful UI/UX Design Trends",
+        description: "Discover the latest trends in user interface design that are captivating users.",
+        coverImageURL: "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        _id: "mock4",
+        title: "Scaling Your MongoDB Database",
+        description: "Best practices for schema design, indexing, and optimizing queries in NoSQL.",
+        coverImageURL: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop"
+      }
+    ];
+  }
+
   res.render("home", {
     user: req.session.user,
     blogs: allBlogs,
